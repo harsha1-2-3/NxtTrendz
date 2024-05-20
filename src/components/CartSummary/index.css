@@ -1,0 +1,56 @@
+.bgCartSummary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px;
+  margin: 0px;
+}
+
+.cartSummaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 10px;
+}
+
+.summaryHead {
+  color: #616e7c;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.summarySpan {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: left;
+  margin: 0px;
+}
+
+.summaryPara {
+  color: #616e7c;
+  font-family: Roboto;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.checkoutBtn {
+  color: white;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  margin: 0px;
+  margin-top: 10px;
+}
