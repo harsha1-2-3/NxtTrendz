@@ -54,3 +54,214 @@
   margin: 0px;
   margin-top: 10px;
 }
+
+.CheckOutCont {
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.OrderPayCont {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  padding: 0px;
+}
+
+.PayCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.CloseBtn {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+}
+
+.CloseImg {
+  height: 25px;
+  width: 30px;
+  margin: 0px;
+}
+
+.CheckOutHead {
+  color: #0b69ff;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 1px black;
+  align-self: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.InputCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.InputDot {
+  cursor: pointer;
+  outline: none;
+}
+
+.InputLabel {
+  color: #171ab5;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.cartSummaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 10px;
+}
+
+.summaryHead {
+  color: #616e7c;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.summarySpan {
+  color: #0b69ff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: left;
+  margin: 0px;
+}
+
+.summaryPara {
+  color: #616e7c;
+  font-family: Roboto;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.BtnsCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.CancelBtn {
+  color: #73767a;
+  background-color: transparent;
+  border: 2px solid #73767a;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 17px;
+  width: 120px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.ConfirmBtn {
+  color: #0b69ff;
+  background-color: transparent;
+  border: 2px solid #0b69ff;
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.OrderPlacedCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.OrderPlacedMsg {
+  background-image: url('https://cdn.dribbble.com/users/1063378/screenshots/7969170/___1.gif');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .CheckOutCont {
+    align-items: center;
+  }
+
+  .OrderPayCont {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .summaryHead {
+    font-size: 30px;
+  }
+
+  .summarySpan {
+    font-size: 35px;
+  }
+
+  .summaryPara {
+    font-size: 25px;
+  }
+
+  .BtnsCont {
+    width: 70%;
+    justify-content: space-between;
+  }
+
+  .CheckOutHead {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .InputLabel {
+    font-size: 25px;
+  }
+
+  .CancelBtn {
+    height: 55px;
+    width: 130px;
+    font-size: 20px;
+  }
+
+  .ConfirmBtn {
+    height: 55px;
+    width: 130px;
+    font-size: 18px;
+  }
+
+  .CloseBtn {
+    margin-right: 40px;
+  }
+}
